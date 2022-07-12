@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.app-nav-bar{
+  border-bottom: solid 2px rgb(58, 57, 57);
+  padding: 10px 35px;
+  margin: 10px 35px;
+  font-size: 22px;
+  a{
+    text-decoration: none;
+  }
+}
+.list-invoices{
+  list-style: none;
+  .invoices-item{
+    text-decoration: none;
+    color:#000;
+  }
+  li{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 5px;
+    &:hover {
+      color:rgb(0, 174, 255);
+  }
+  }
+}
+.invoice-detail-wrap{
+  span{
+    font-size: 20px;
+  }
+}
